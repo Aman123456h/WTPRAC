@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookstore [
+    <!ELEMENT bookstore (book+)>
+    <!ELEMENT book (title, author, price, category)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT author (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT category (#PCDATA)>
+]>
+<bookstore>
+    <book>
+        <title>Harry Potter</title>
+        <author>J K. Rowling</author>
+        <price>29.99</price>
+        <category>Fiction</category>
+    </book>
+</bookstore>
